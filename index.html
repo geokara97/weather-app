@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Weather App</h1>
+        <input type="text" id="locationInput" placeholder="Enter a city">
+        <button id="searchButton">Search</button>
+        <div class="weather-info">
+            <h2 id="location"></h2>
+            <header id="header">
+                <p id="temperature"></p>
+                <p id="description"></p>
+                <img id="weather-icon" src="" alt="Weather Icon" style="display: none;">
+                
+            </header>
+            <container id="more-info">
+                <div id="fells-like-div">
+                <p id ="feels-like"></p>
+                <p id="feels-like-d">Feels like</p>
+                </div>
+                <div id="wind-speed-div">
+                <p id="wind-speed"></p>
+                <p id="wind-speed-d">Wind Speed</p>
+                </div>
+                <div id="wind-gust-div">
+                <p id="wind-gust"></p>
+                <p id="wind-gust-d">Wind Gust</p>
+                </div>
+                <div id="wind-degree-div">
+                <p id="wind-degree"></p>
+                <p id="wind-degree-d">Wind Deg</p>
+                </div>
+                <div id="humidity-div">
+                <p id="humidity"></p>
+                <p id="humidity-d">Humidity</p>
+                </div>
+                <div id="pressure-div">
+                <p id="pressure"></p>
+                <p id="pressure-d">Pressure</p>
+                </div>
+            </container>
+            
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
